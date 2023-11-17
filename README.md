@@ -22,7 +22,7 @@ body {
 </details>
 ```
 
-```
+```javascript
  for (let index = 0; index < nationalParksArray.length; index += 1) {
         const location = nationalParksArray[index];
 
@@ -33,11 +33,7 @@ body {
                     <p class="card-text">
                         <p><strong> Name: </strong> ${location.LocationName}</p>
                         <p><strong> Address: </strong> ${location.Address}</p>
-                        <p><strong> State: </strong> ${location.State}</p>
-                        <p><strong> Latitude: </strong> ${location.Latitude}</p>
-                        <p><strong> Longitude: </strong> ${location.Longitude}</p>
-                        <p><strong> Fax: </strong> ${location.Fax}</p>
-                        <p><strong> Phone: </strong> ${location.Phone}</p> 
+                        
                         </p>
                 </div>
             </div>`;
