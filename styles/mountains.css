@@ -1,0 +1,34 @@
+body {
+  background-color: yellowgreen;
+}
+
+
+
+body {
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 20vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.info-container {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}
+
+/* Add any additional styling as needed */
